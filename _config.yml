@@ -1,1 +1,22 @@
-theme: jekyll-theme-cayman
+# ----------- CONFIGURABLE START -----------
+title:            "Blog · Mixsun"
+description:      "Mixsun's Blog, focus on Python, Linux, Gentoo, Mac OS, Vim, Open Source and so on."
+url:              http://mixsun.me # Site url, without a slash at the end.
+signoff:          "mixsun" # Your name
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            false # Turn on twitter and facebook share buttons
+
+links:
+  - name:         首页
+    url:          /
+    external:     false
+  - name:         About
+    url:          /about
+    external:     false
+# ------------ CONFIGURABLE END ------------
+
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default"

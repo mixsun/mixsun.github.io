@@ -1,10 +1,9 @@
-@import "tachyons.min.css";
 @import "marxico.css";
 
+.title{margin-bottom:2rem;margin:0 0 2rem 0;}
 .bg-super-white { background: #eee; }
 .top-50 { top: 50% }
 .link:hover { background: url(/images/line.png) repeat-x left bottom; }
-
 /* Markdown styles */
 /*.markdown-body a {
   text-decoration: none;
@@ -42,11 +41,12 @@
 .markdown-body a:active,.markdown-body a:visited{outline:none}
 .menu{max-width:48rem;margin: 0 auto;padding:1rem 0;text-align:right;}
 */
+
 .content{    text-align: justify;
     max-width: 856px;
     margin: 0 auto;
     line-height: 1.75em;
-    padding: 1em 2em;
+    padding: 2em;
     background-color: #fff;
     margin: 1em auto;}
 .menu{max-width: 856px;margin: 0 auto;padding:1rem 0;text-align:right;}

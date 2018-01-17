@@ -7,25 +7,23 @@
     <title>{{ site.title }}</title>
     {% include head.html %}
   </head>
-  <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
-    <header class="tc">
-      <nav class="menu bb b--light-gray" aria-label="Main">
+  <body class="bg-super-white">
+    <header>
+      <nav class="menu" aria-label="Main">
         {% for link in site.links %}
-          <a class="blue hover-mid-gray mh2 pv1"
+          <a
              href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
              {{ link.name }}
            </a>
         {% endfor %}
       </nav>
     </header>
-    <div class="mw7 content mb3 center">
+    <div class="content">
       
-
-      <main class="tl f6 relative pa4 overflow-hidden">
         {% if page.title %}
-          <div class="mb4">
+          <div class="markdown-body">
             {% if page.date %}<div class="fw600 light-silver mt1">{{ page.date | date_to_string }}</div>{% endif %}
-            <h1 class="ttu f3 mt0 lh-title cb mb2">
+            <h1 class="title">
               {% if is_post %}
               {% endif %}
               {{ page.title }}
@@ -40,11 +38,9 @@
         <div class="markdown-body">
           {{ content }}
         </div>
-        {% if is_post %}{% include signoff.html %}{% endif %}
-      </main>
       {% if is_post %}{% include pagination.html %}{% endif %}
     </div>
-    <footer class="mw7 center tc pt3 pb4 silver">
+    <footer>
 	Copyright © mixsun 2018 Theme by scribble
     </footer>
   </body>

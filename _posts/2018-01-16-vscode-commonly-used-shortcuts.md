@@ -4,6 +4,7 @@ title: VSCode 常用快捷键
 date: 2018-01-16 00:06:52
 ---
 
+![题图](https://mixsun.github.io/images/article/20180117.jpg)
 >以前一直用sublime text 3码代码，一天好基友介绍vscode，说非常好用，就下载下来尝试尝试，很好用，微软BABA开发的工具，刚刚的！VScode内置好多快捷键，可以大大的提高我们的开发效率，特整理出来！
 
 #### 快捷键

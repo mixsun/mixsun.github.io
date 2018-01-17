@@ -7,11 +7,11 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
   </head>
-  <body class="lh-copy dark-gray pa0 sans-serif bg-super-white">
+  <body class="bg-super-white">
     <header>
       <nav class="menu" aria-label="Main">
         {% for link in site.links %}
-          <a class="blue hover-mid-gray mh2 pv1"
+          <a 
              href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
              {{ link.name }}
            </a>
@@ -20,9 +20,9 @@
     </header>
     <div class="content">
         {% if page.title %}
-          <div class="mb4">
+          <div class="title">
             {% if page.date %}<div class="light-silver mt1">{{ page.date | date_to_string }}</div>{% endif %}
-            <h1 class="ttu f2 mt0 lh-title cb mb2">
+            <h1 class="title">
               {% if is_post %}
               {% endif %}
               {{ page.title }}

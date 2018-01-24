@@ -11,10 +11,15 @@ html2canvas能够实现用户浏览器端的任何一部分进行截屏，渲染
 浏览器要求，支持（**ES6 Promise**）
 
 Firefox 3.5+
+
 Google Chrome
+
 Opera 12+
+
 IE9+
+
 Safari 6+
+
 
 ![题图](/images/article/20180124-1.png)
 
@@ -34,5 +39,6 @@ Safari 6+
 
 options参数可配置如：[参数url地址](http://html2canvas.hertzen.com/configuration)
 
-[html2canvas官方地址](http://html2canvas.hertzen.com/)
-[html2canvas github地址](https://github.com/niklasvh/html2canvas/)
+[官方地址](http://html2canvas.hertzen.com/)
+
+[地址](https://github.com/niklasvh/html2canvas/)
